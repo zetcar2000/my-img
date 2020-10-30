@@ -1,9 +1,12 @@
 /* 노멀라이징 */
+html {
+    letter-spacing: -.3px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 * {
     margin:0;
     padding:0;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -115,7 +118,7 @@ li, ul {
 .menu-wrap > .logo {
     width:50px;
     height:50px;
-    background-image:url("../img/LEGO-Logo-gnb.gif");
+    background-image:url("../img/LEGO-Logo-gnb.gif?dummy=120398219038120382109380912");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -133,12 +136,11 @@ li, ul {
     opacity: 0;
 }
 
-.menu-wrap > li {
-}
-
 .menu-wrap > li:hover > ul {
     max-height:200em;
     border-bottom:1px solid #dddddd;
+    padding-top:20px;
+    padding-bottom:30px;
 }
 
 .menu-wrap > li > a {
@@ -147,13 +149,15 @@ li, ul {
     color:#272727;
     font-size:18px;
     padding:0 20px;
-    transition:0.5s;
 }
 
 .menu-wrap > li:hover > a {
-    background-color:#ffffff;
-    transition: 0.5s;
     color:#006db7;
+}
+
+.menu-wrap > li:hover > a:not(:only-child) {
+    background-color:white;
+    box-shadow: 0 10px 6px rgba(0,0,0,0.3);
 }
 
 .menu-wrap > li > ul {
@@ -171,76 +175,83 @@ li, ul {
 }
 
 .menu-wrap > li > .Series > li > ul {
-    width:50%;
+    width:100%;
 }
 
-.menu-wrap > li > .Series > li > ul:first-child {
-    border-right:1px solid #dddddd;
-}
-
-.menu-wrap > li > .Series > li > ul:last-child {
-    width:49%;
-}
 
 
 .menu-wrap > li > .Series > li > ul > li {
-    width:25%;
+    width:20%;
     text-align: center;
     font-size:15px;
 }
 
 .menu-wrap > li > .Series > li > ul > li > a {
     line-height:50px;
+    font-size:18px;
+    width:100%; 
+    color:#006db7;
+    font-weight: bold;
+}
+
+.menu-wrap > li > .Series > li > ul > li > ul > li {
+    line-height:40px;
+    font-size:16px;
+}
+
+.menu-wrap > li > .Series > li > ul > li > ul > li > a {
+    font-weight:normal;
     color:#666666;
 }
 
-.menu-wrap > li > .Series > li > ul > li:hover > a {
+.menu-wrap > li > .Series > li > ul > li > ul > li > a:hover {
     color:#000000;
     font-weight: bold;
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li {
     width:100%;
     height:150px;
     position: relative;
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li > a {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > a {
     width:100%;
     height:100%;
     display: block;
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li > .All-Series-View {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > .All-Series-View {
     width:90px;
     height:90px;
     background-image: url("../img/next-button.png");
     position: absolute;
     left:50%;
-    top:8%;
-    transform: translateX(-50%);
-    z-index: 100;
+    top:50%;
+    z-index: 95;
+    transform: translatex(-50%);
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li > .All-Series-View > a {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > .All-Series-View > a {
     width:90px;
     height:90px;
     display: block;
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li > .All-Series-View-text {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > .All-Series-View-text {
+    width:100%;
     position: absolute;
-    bottom:10%;
     left:50%;
-    transform:translateX(-50%);
+    bottom:-40%;
+    transform: translateX(-50%);
 }
 
 
-.menu-wrap > li > .Series > li > .All-Series > li > .All-Series-View-text > a {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > .All-Series-View-text > a {
     color:#666666;
 }
 
-.menu-wrap > li > .Series > li > .All-Series > li > .All-Series-View-text:hover > a {
+.menu-wrap > li > .Series > li > ul > li > .All-Series > li > .All-Series-View-text:hover > a {
     color:#000000;
     font-weight: bold;
 }
@@ -259,6 +270,7 @@ li, ul {
     font-size:18px;
     width:100%; 
     color:#006db7;
+    font-weight: bold;
 }
 
 .menu-wrap > li > ul > .Kategorie > ul > li > ul > li { 
@@ -290,12 +302,10 @@ li, ul {
 }
 
 .menu-wrap > li > .help > li > ul > li > a {
-    line-height:40px;
-    color:#666666;
-}
-
-.menu-wrap > li > .help > li > ul > li:hover > a {
-    color:#000000;
+    line-height:50px;
+    font-size:18px;
+    width:100%; 
+    color:#006db7;
     font-weight: bold;
 }
 
@@ -570,10 +580,14 @@ li, ul {
 
 .goods > div > .info_plus {
     width:14%;
-    font-size:1vw;
+    font-size:0.8vw;
     position: absolute;
-    right:4%;
+    right:1.5%;
     bottom:5%;
+}
+
+.goods > .hot > .info_plus {
+    right:1%;
 }
 
 .goods > div > .info_plus > .info_plus_text > a > span {
