@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>홈 | LEGO® Shop KR</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slick.min.js"></script>
+</head>
+
+<body style="overflow-x:hidden">
+
+    <header class="header">
+        <div class="Topbar con row">
+            <div class="Login cell-right">
+                <a href="#">
+                    <span class="cell"></span>
+                    로그인
+                </a>
+            </div>
+            <div class="Join cell-right">
+                <a href="#">
+                    <span class="cell"></span>
+                    회원가입
+                </a>
+            </div>
+            <div class="Shopping cell-right">
+                <a href="#">
+                    <span class="cell"></span>
+                    장바구니
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="gnb">
+        <div class="gnb-pattern"></div>
+        <div class="con middle">
+            <ul class="menu-wrap row con">
+                <li class="cell logo">
+                    <a href="#">로고</a>
+                </li>
+                <li class="cell">
+                    <a href="#">회사 소개</a>
+                </li>
+                <li class="cell">
+                    <a href="#">시리즈별</a>
+                    <ul class="Series">
+                        <li class="con row">
+                            <ul class="cell row">
+                                <li class="cell">
+                                    <a href="#">DC</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">MARVEL</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">닌자고™</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">디즈니™</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">레고® 슈퍼 마리오™</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">레고® 에듀케이션</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">레고® 오리지널</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">마인드스톰®</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">시티</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">크리에이터 3-in-1</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">클래식</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">프렌즈</a>
+                                </li>
+                            </ul>
+                            <ul class="cell row All-Series">
+                                <li>
+                                    <a href="#"></a>
+                                    <div class="All-Series-View">
+                                        <a href="#"></a>
+                                    </div>
+                                    <div class="All-Series-View-text">
+                                        <a href="#">더 많은 시리즈 보기</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cell">
+                    <a href="#">카테고리</a>
+                    <ul>
+                        <li class="con row Kategorie">
+                            <ul class="cell">
+                                <li>
+                                    <a href="#">신제품</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">신제품 더 보기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="cell">
+                                <li>
+                                    <a href="#">인기</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">인기제품 더 보기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="cell">
+                                <li>
+                                    <a href="#">나이</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">1-2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">3-5</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">6-8</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">9-11</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">11+</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="cell">
+                                <li>
+                                    <a href="#">가격</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">20,000원 이하</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">20,000원 - 50,000원</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">50,000원 - 100,000원</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">100,000원 - 200,000원</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">200,000원 이상</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="cell">
+                                <li>
+                                    <a href="#">제품 유형</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">액세서리</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">도서</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">홈 데코</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">열쇠고리</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">보관함</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cell">
+                    <a href="#">이벤트</a>
+                </li>
+                <li class="cell">
+                    <a href="#">멤버쉽</a>
+                </li>
+                <li class="cell">
+                    <a href="#">지원</a>
+                    <ul class="help">
+                        <li class="con">
+                            <ul class="row">
+                                <li class="cell">
+                                    <a href="#">일반적인 질문</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">결제 방식</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">배송 및 반품</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">약관</a>
+                                </li>
+                                <li class="cell">
+                                    <a href="#">연락처</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="search cell-right">
+                    <div class="search-box">
+                        <div class="search-icon"></div>
+                        <input class="serach-textbox" type="text" name="search" placeholder="검색..">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="main1">
+        <div class="main_slide">
+            <div class="slide1"></div>
+            <div class="slide2"></div>
+            <div class="slide3"></div>
+            <div class="slide4"></div>
+        </div>
+        <div class="SlidePrev">
+            <span></span>
+        </div>
+        <div class="SlideNext">
+            <span></span>
+        </div>
+    </section>
+
+    <section class="main2">
+        <div class="goods">
+            <div class="goods_bg"></div>
+            <div class="recommend">
+                <div class="title">
+                    <h2>추천 상품</h2>
+                </div>
+                <div class="goods_info">
+                    <div class="first">
+                        <div class="info_bg">
+                            <a href="#">제품1</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">6x6 볼보 굴절식 덤프트럭</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>319,900 원</h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">장바구니 담기</a>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="info_bg">
+                            <a href="#">제품2</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">그랜드 피아노</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>469,900 원</h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">장바구니 담기</a>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <div class="info_bg">
+                            <a href="#">제품3</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">킹부끄와 유령들린 정원 확장팩</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>74,900 원</h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">장바구니 담기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_plus">
+                    <div class="info_plus_text">
+                        <a href="#">추천 상품 더 보기<span>〉</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hot">
+                <div class="title">
+                    <h2>최다 관심 상품</h2>
+                </div>
+                <div class="goods_info">
+                    <div class="first">
+                        <div class="info_bg">
+                            <a href="#">제품1</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">프렌즈 친구들과 즐기는 쇼핑</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>
+                                신제품 수집용 플레이 큐브 시리즈로<br>
+                                세상을 활짝 펼쳐 보세요!
+                            </h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">쇼핑하기</a>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="info_bg">
+                            <a href="#">제품2</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">거실을 장식할 작품</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>
+                                신제품 2-in-1 크리스마스 화환으로<br>
+                                즐거운 크리스마스 분위기를 돋워 보세요.
+                            </h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">쇼핑하기</a>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <div class="info_bg">
+                            <a href="#">제품3</a>
+                        </div>
+                        <div class="info_title">
+                            <h4>
+                                <a href="#">나만의 영웅을 조립하는 재미</a>
+                            </h4>
+                        </div>
+                        <div class="info_text">
+                            <h5>
+                                신제품 레고® 닌자고® 세트로<br>
+                                한 차원 높은 역할 놀이를 즐겨 보아요.
+                            </h5>
+                        </div>
+                        <div class="info_button">
+                            <a href="#">쇼핑하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="info_plus">
+                    <div class="info_plus_text">
+                        <a href="#">최다 관심 상품 더 보기<span>〉</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+                <div class="banner_bg"></div>
+                <div class="banner1">
+                    <a href="#"></a>
+                </div>
+                <div class="banner2">
+                    <a href="#"></a>
+                </div>
+                <div class="banner3">
+                    <a href="#"></a>
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="con row">
+            <div class="footer_logo cell">
+                <div class="footer_logo_img">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="footer_text_wrap cell">
+                <div class="footer_text_top row">
+                    <ul class="row cell">
+                        <li class="cell">
+                            <a href="#">회사소개</a>
+                        </li>
+                        <li class="cell">
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li class="cell">
+                            <a href="#">법적고지</a>
+                        </li>
+                        <li class="cell">
+                            <a href="#">이용약관</a>
+                        </li>
+                        <li class="cell">
+                            <a href="#">접근성</a>
+                        </li>
+                    </ul>
+                    <div class="footer_icon cell row">
+                        <div class="footer_icon_facebook cell">
+                            <a href="#"></a>
+                        </div>
+                        <div class="footer_icon_youtube cell">
+                            <a href="#"></a>
+                        </div>
+                        <div class="footer_icon_insta cell">
+                            <a href="#"></a>
+                        </div>
+                        <div class="footer_icon_twitter cell">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="footer_lang cell-right">
+                        <select onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
+                            <option>국가 변경</option>
+                                <optgroup label="북미">
+                                    <option title="Canada / English" value="https://www.lego.com/en-ca">Canada / English</option>
+                                    <option title="Canada / Français" value="https://www.lego.com/fr-ca">Canada / Français</option>
+                                    <option title="México / Español" value="https://www.lego.com/es-mx">México / Español</option>
+                                    <option title="Mexico / English" value="https://www.lego.com/en-mx">Mexico / English</option>
+                                    <option title="United States / English" value="https://www.lego.com/en-us">United States / English</option>
+                                </optgroup>
+                                <optgroup label="남미">
+                                    <option title="Brasil / Português" value="https://www.lego.com/pt-br">Brasil / Português</option>
+                                    <option title="Latinoamérica / Español" value="https://www.lego.com/es-ar">Latinoamérica / Español</option>
+                                </optgroup>
+                                <optgroup label="유럽">
+                                    <option title="Belgique / Français" value="https://www.lego.com/fr-be">Belgique / Français</option>
+                                    <option title="België / Nederlands" value="https://www.lego.com/nl-be">België / Nederlands</option>
+                                    <option title="Belgium / English" value="https://www.lego.com/en-be">Belgium / English</option>
+                                    <option title="Česká republika / Čeština" value="https://www.lego.com/cs-cz">Česká republika / Čeština</option>
+                                    <option title="Czech Republic / English" value="https://www.lego.com/en-cz">Czech Republic / English</option>
+                                    <option title="Danmark / Dansk" value="https://www.lego.com/da-dk">Danmark / Dansk</option>
+                                    <option title="Denmark / English" value="https://www.lego.com/en-dk">Denmark / English</option>
+                                    <option title="Deutschland / Deutsch" value="https://www.lego.com/de-de">Deutschland / Deutsch</option>
+                                    <option title="Germany / English" value="https://www.lego.com/en-de">Germany / English</option>
+                                    <option title="Eesti / Eesti" value="https://www.lego.com/et-ee">Eesti / Eesti</option>
+                                    <option title="Estonia / English" value="https://www.lego.com/en-ee">Estonia / English</option>
+                                    <option title="España / Español" value="https://www.lego.com/es-es">España / Español</option>
+                                    <option title="Spain / English" value="https://www.lego.com/en-es">Spain / English</option>
+                                    <option title="Finland / English" value="https://www.lego.com/en-fi">Finland / English</option>
+                                    <option title="Suomi / Suomi" value="https://www.lego.com/fi-fi">Suomi / Suomi</option>
+                                    <option title="France métropolitaine / Français" value="https://www.lego.com/fr-fr">France métropolitaine / Français</option>
+                                    <option title="France Metropolitan / English" value="https://www.lego.com/en-fr">France Metropolitan / English</option>
+                                    <option title="Greece / English" value="https://www.lego.com/en-gr">Greece / English</option>
+                                    <option title="Hungary / English" value="https://www.lego.com/en-hu">Hungary / English</option>
+                                    <option title="Magyarország / Hungarian" value="https://www.lego.com/hu-hu">Magyarország / Hungarian</option>
+                                    <option title="Ireland / English" value="https://www.lego.com/en-ie">Ireland / English</option>
+                                    <option title="Italia / Italiano" value="https://www.lego.com/it-it">Italia / Italiano</option>
+                                    <option title="Italy / English" value="https://www.lego.com/en-it">Italy / English</option>
+                                    <option title="Latvija / Latviešu" value="https://www.lego.com/lv-lv">Latvija / Latviešu</option>
+                                    <option title="Latvia / English" value="https://www.lego.com/en-lv">Latvia / English</option>
+                                    <option title="Lietuva / Lietuviškai" value="https://www.lego.com/lt-lt">Lietuva / Lietuviškai</option>
+                                    <option title="Lithuania / English" value="https://www.lego.com/en-lt">Lithuania / English</option>
+                                    <option title="Luxembourg / Français" value="https://www.lego.com/fr-lu">Luxembourg / Français</option>
+                                    <option title="Luxemburg / Deutsch" value="https://www.lego.com/de-lu">Luxemburg / Deutsch</option>
+                                    <option title="Luxemburg / English" value="https://www.lego.com/en-lu">Luxemburg / English</option>
+                                    <option title="Nederland / Nederlands" value="https://www.lego.com/nl-nl">Nederland / Nederlands</option>
+                                    <option title="Netherlands / English" value="https://www.lego.com/en-nl">Netherlands / English</option>
+                                    <option title="Norge / Norsk Bokmål" value="https://www.lego.com/nb-no">Norge / Norsk Bokmål</option>
+                                    <option title="Norway / English" value="https://www.lego.com/en-no">Norway / English</option>
+                                    <option title="Österreich / Deutsch" value="https://www.lego.com/de-at">Österreich / Deutsch</option>
+                                    <option title="Austria / English" value="https://www.lego.com/en-at">Austria / English</option>
+                                    <option title="Polska / Polski" value="https://www.lego.com/pl-pl">Polska / Polski</option>
+                                    <option title="Poland / English" value="https://www.lego.com/en-pl">Poland / English</option>
+                                    <option title="Portugal / English" value="https://www.lego.com/en-pt">Portugal / English</option>
+                                    <option title="Россия / Русский" value="https://www.lego.com/ru-ru">Россия / Русский</option>
+                                    <option title="Schweiz / Deutsch" value="https://www.lego.com/de-ch">Schweiz / Deutsch</option>
+                                    <option title="Suisse / Français" value="https://www.lego.com/fr-ch">Suisse / Français</option>
+                                    <option title="Switzerland / English" value="https://www.lego.com/en-ch">Switzerland / English</option>
+                                    <option title="Slovenia / English" value="https://www.lego.com/en-si">Slovenia / English</option>
+                                    <option title="Slovensko / Slovenčina" value="https://www.lego.com/sk-sk">Slovensko / Slovenčina</option>
+                                    <option title="Slovakia / English" value="https://www.lego.com/en-sk">Slovakia / English</option>
+                                    <option title="Sweden / English" value="https://www.lego.com/en-se">Sweden / English</option>
+                                    <option title="Sverige / Svenska" value="https://www.lego.com/sv-se">Sverige / Svenska</option>
+                                    <option title="United Kingdom / English" value="https://www.lego.com/en-gb">United Kingdom / English</option>
+                                </optgroup>
+                                <optgroup label="아시아 태평양">
+                                    <option title="Australia / English" value="https://www.lego.com/en-au">Australia / English</option>
+                                    <option title="India / English" value="https://www.lego.com/en-in">India / English</option>
+                                    <option title="Malaysia / English" value="https://www.lego.com/en-my">Malaysia / English</option>
+                                    <option title="New Zealand / English" value="https://www.lego.com/en-nz">New Zealand / English</option>
+                                    <option title="Singapore / English" value="https://www.lego.com/en-sg">Singapore / English</option>
+                                    <option title="대한민국 / 한국어" value="https://www.lego.com/ko-kr">대한민국 / 한국어</option>
+                                    <option title="中华人民共和国 / 中文" value="https://www.lego.com/zh-cn">中华人民共和国 / 中文</option>
+                                    <option title="日本 / 日本語" value="https://www.lego.com/ja-jp">日本 / 日本語</option>
+                                </optgroup>
+                                <optgroup label="중동">
+                                    <option title="South Africa / English" value="https://www.lego.com/en-za">South Africa / English</option>
+                                    <option title="Türkiye / Türkçe" value="https://www.lego.com/tr-tr">Türkiye / Türkçe</option>
+                                    <option title="United Arab Emirates / English" value="https://www.lego.com/en-ae">United Arab Emirates / English</option>
+                                </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="footer_text_bottom">
+                    <div class="footer_text_bottom_top">
+                        LEGO® 고객 서비스 : 080-022-3780·오전 9시-오후 6시 (월요일-금요일)
+                    </div>
+                    <div class="footer_text_bottom_bottom">
+                        ©2020 The LEGO Group. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
